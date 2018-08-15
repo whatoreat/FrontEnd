@@ -1,0 +1,32 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "post.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "bootstrap-overrides.scss";
+
+#newFeedsContainer {
+  .previewImage {
+    width: 18rem;
+    @media only screen and (max-width: 991px) {
+      width: 12rem;
+    }
+  }
+
+  .preview-sub-smaller {
+    font-size: 1.5rem;
+  }
+}
+
+.bannerLogo {
+  width: 30rem;
+  @media only screen and (max-width: 991px) {
+    width: 20rem;
+  }
+  @media only screen and (max-width: 320px) {
+    width: 10rem;
+  }
+}

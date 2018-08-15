@@ -1,0 +1,51 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "post.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "bootstrap-overrides.scss";
+
+.content-img {
+  max-height: 20rem;
+}
+
+hr {
+  margin-top: 3rem;
+  border-top: none;
+}
+
+address {
+  font-style: italic;
+  text-decoration-color: white;
+}
+
+header {
+  height: 50vh;
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1rem !important;
+  }
+}
+
+#map {
+  margin-left: 15%;
+  width: 70% !important;
+  height: 300px;
+  @media only screen and (max-width: 991px) {
+    height: 250px;
+  }
+  @media only screen and (max-width: 320px) {
+    height: 200px;
+  }
+}
+
+#facebookShareButtonBlock {
+  text-align: right;
+}
