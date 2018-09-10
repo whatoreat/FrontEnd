@@ -23,7 +23,7 @@ $(document).ready(function() {
   });
 
   $('#facebookShareButton').each(function() {
-    console.log($(location).attr('pathname'));
+    // console.log($(location).attr('pathname'));
     var targetLink = "https://whatoreat.com" + $(location).attr('pathname');
 
     $(this).attr('data-href', targetLink);

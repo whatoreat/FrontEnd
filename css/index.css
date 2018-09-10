@@ -425,11 +425,13 @@ footer .copyright {
 }
 
 #newFeedsContainer .previewImage {
-  width: 18rem;
+  width: 12rem;
+  height: 12rem;
 }
 
 @media only screen and (max-width: 991px) {
   #newFeedsContainer .previewImage {
+    margin-top: 3rem;
     width: 12rem;
   }
 }
