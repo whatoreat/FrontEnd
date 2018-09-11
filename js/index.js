@@ -24,9 +24,12 @@
       if (res) {
         var lastestFeeds = JSON.parse(res);
         for (feedIndex in lastestFeeds) {
-          console.log(lastestFeeds[feedIndex])
+          // console.log(lastestFeeds[feedIndex])
           updateNewsFeeds(lastestFeeds[feedIndex]);
         }
+
+        document.getElementById("newsFeedLoader").style.display = "none";
+        document.getElementById("newFeedsContainer").style.display = "inline";
 
       }
     })
